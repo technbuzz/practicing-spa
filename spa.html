@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SPA</title>
+	<style>
+		body{
+			width: 100px;
+			height: 100px;
+			overflow: hidden;
+			background-color: #777;
+		}
+		#spa{
+			position: absolute;
+			top: 8px;
+			left: 8px;
+			right: 8px;
+			bottom: 8px;
+			border-radius:8px 8px 0 8px;
+			background-color: #fff;
+		}
+		.spa-slider{
+			position: absolute;
+			bottom: 0;
+			right: 2px;
+			width: 300px;
+			height: 16px;
+			cursor: pointer;
+			border-radius:8px 0 0 0;
+			background-color: #f00;
+		}
+	</style>
+</head>
+<body>
+	<div id="spa">
+		<div class="spa-slider"></div>
+	</div>
+	<script>
+	/* jslint settings */
+	// Module /spa/
+	// Provides chat slider capability
+	var spa = (function($){
+		// Module scope variables
+		var
+			// Set constants
+			configMap = {
+
+			},
+			// Declare all other module scope variables
+			$chatSlider, toggleSlider, onClickSlider, initModule;
+
+		// DOM method /toggleSlider/
+		// alternates slider height
+
+		toggleSlider = function() {};
+
+		// Event handler /onClickSlider/
+		// receives click event and calls toggleSlider
+
+		onClickSlider = function () {};
+
+		// Public method /initModule/
+		// sets initial state and provides feature
+		initModule = function ($container) {
+			// render HTML
+			// initialize slider height and title
+			// bind the user click event to the event handler
+
+		};
+	})();
+	// Start spa once DOM is ready
+	</script>
+</body>
+</html>
